@@ -156,6 +156,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Appointer\Swaggervel\SwaggervelServiceProvider::class,
+        //Barryvdh\Cors\ServiceProvider::class,
     ],
 
     /*
